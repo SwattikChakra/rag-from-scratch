@@ -1,0 +1,37 @@
+# Environment
+.env
+*.env
+
+# Cache & index
+.cache/
+*.faiss
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (don't commit PDFs)
+data/sample_docs/*.pdf
+data/sample_docs/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
